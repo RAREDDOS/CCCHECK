@@ -11,7 +11,7 @@ api_id = "29457776"
 api_hash = "4f37810683c649a02691a1d274f3710b"
 bot_token = "7389778785:AAGmscyig8S3KpPMLUTF2DhdJJNLUnf2O78"
 
-app = Client("⏤͟͟͞͞𝙍𝘼𝙍𝙀 𝙊𝙒𝙉𝙀𝙍", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
+app = Client("ᔆ ᴾ ᴱ ᴱ ᴰ ™ ⌁", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 
 cache_file = "bin_cache.json"
 
@@ -106,7 +106,7 @@ def start(client, message):
     
     """)
     message.reply_photo(
-        "https://telegra.ph/RARE-08-30",
+        "https://telegra.ph/file/0f3a3bedead471c34c2c4.jpg",
         caption=help_text,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -239,3 +239,4 @@ def handle_all_messages(client, message):
     add_reaction(message)
 
 app.run()
+        
